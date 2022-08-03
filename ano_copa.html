@@ -1,0 +1,27 @@
+<meta charset="UTF-8">
+<script>
+
+function pulaLinha(){
+	
+	document.write("<br><br>");
+}
+
+function mostra(frase){
+	
+	document.write(frase);
+	pulaLinha();
+
+}
+
+var limite = parseInt(prompt("Entre com o ano desejado para saber os anos que tiveram Copas do Mundo."));
+var anoCopa = 1930 ;
+while(anoCopa <= limite){
+
+	mostra("Tivemos Copa do Mundo no ano: " + anoCopa);
+var anoCopa = anoCopa + 4;
+	
+}
+
+	mostra("Fim.");
+
+</script>}
